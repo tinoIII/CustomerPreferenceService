@@ -31,7 +31,7 @@ The input/output format is yours to decide. You should aim to design a ‘turn-k
  comfortable in as you will be asked to extend your solution as part of a pair-programming exercise.
 
 ## Solution
-- Post API which with the route ```/schedule/:y/:m/:d'``` with the year, month and date in the query string
+- Post endpoint which with the route ```/schedule/:y/:m/:d'``` with the year, month and date in the query string
 - Accepts [user](./src/Types/CustomTypes.ts) array
     <details>
         [
@@ -92,7 +92,7 @@ The input/output format is yours to decide. You should aim to design a ‘turn-k
     </details>
 
 - Returns [DailyNotificationList](./src/Types/CustomTypes.ts)
-- Get API which with the route ```/schedule/:y/:m/:d'``` with the year, month and date in the query string
+- Get test endpoint which with the route ```/schedule/:y/:m/:d'``` with the year, month and date in the query string (users defined in the app)
 
 Run:
 1. Ensure node ```v20.11.0``` is installed
