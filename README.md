@@ -98,4 +98,4 @@ Run:
 1. Ensure node ```v20.11.0``` is installed
 2. Run ```npm install```
 3. Run ```npm run build```
-4. Run ``npm run start```
+4. Run ```npm run start```
